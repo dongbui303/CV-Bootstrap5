@@ -1,0 +1,9 @@
+@use '../custome' as *;
+@use '../components/mixin' as *;
+
+.testimonials {
+    position: relative;
+    padding: 0;
+
+    @include gradient;
+}
