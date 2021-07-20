@@ -4,6 +4,19 @@
 .testimonials {
     position: relative;
     padding: 0;
-
     @include gradient;
+
+    &__card {
+        background-color: rgba($white, 0.8);
+        padding: 2rem 1.25rem;
+        border-radius: 0.62rem;
+
+    }
+
+    &__picture{
+
+    }
+    &__name{
+
+    }
 }
